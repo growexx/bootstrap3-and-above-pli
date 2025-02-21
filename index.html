@@ -1,0 +1,112 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 3 & Above Versions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2 class="logo text-center">Bootstrap</h2>
+        <ul class="menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+            <li><a href="grid.html"><i class="fas fa-th"></i> Grid System</a></li>
+            <li><a href="components.html"><i class="fas fa-puzzle-piece"></i> Components</a></li>
+            <li><a href="forms.html"><i class="fas fa-file-alt"></i> Forms</a></li>
+            <li><a href="alerts.html"><i class="fas fa-exclamation-triangle"></i> Alerts</a></li>
+            <li><a href="cards.html"><i class="fas fa-id-card"></i> Cards</a></li>
+            <li><a href="modals.html"><i class="fas fa-window-maximize"></i> Modals</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="header">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <div class="profile">
+                <img src="https://cdn0.iconfinder.com/data/icons/cryptocurrency-137/128/1_profile_user_avatar_account_person-132-512.png" alt="User">
+                <span>Uddeshya Kumar</span>
+            </div>
+        </div>
+        <h1 class="text-center">Bootstrap Overview: Grid System, Components, Forms, Alerts, Cards, Modals</h1>
+        <section>
+            <h2><strong>1. Grid System</strong></h2>
+            <div class="example-box">
+                <h3><strong>Overview</strong></h3></br>
+                The Bootstrap grid system is a flexible layout system that uses rows and columns to structure content responsively. It allows developers to create layouts that adapt to different screen sizes seamlessly.
+                <ul>
+                    <li><strong>Bootstrap 3:</strong> Uses a 12-column grid system with classes prefixed by <code>.col-xs-</code>, <code>.col-sm-</code>, <code>.col-md-</code>, and <code>.col-lg-</code>.</li>
+                    <li><strong>Bootstrap 5:</strong> Expands on the grid system by introducing <code>.col-</code> for automatic column sizing and additional breakpoints such as <code>.col-xl-</code> and <code>.col-xxl-</code>.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2><strong>2. Components</strong></h2>
+            <div class="example-box">
+                <h3><strong>Overview</strong></h3></br>
+                Bootstrap provides a variety of pre-styled components that simplify web development. These include buttons, navigation bars, dropdowns, alerts, badges, and more. Each component is designed to be easily customizable and responsive.
+                <ul>
+                    <li>Buttons allow users to interact with the interface and come in different styles like primary, secondary, danger, etc.</li>
+                    <li>Dropdowns provide a way to display a list of options dynamically.</li>
+                    <li>Navigation bars help in structuring menus and site navigation effectively.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2><strong>3. Forms</strong></h2>
+            <div class="example-box">
+                <h3><strong>Overview</strong></h3></br>
+                Forms in Bootstrap are designed to be accessible, responsive, and easy to style. They include input fields, text areas, checkboxes, radio buttons, and validation feedback.
+                <ul>
+                    <li><strong>Bootstrap 3:</strong> Uses <code>.form-group</code> for structuring form elements.</li>
+                    <li><strong>Bootstrap 5:</strong> Introduces improved spacing classes like <code>.mb-3</code> and removes older layouts like <code>.form-inline</code>.</li>
+                </ul>
+                Forms are crucial for collecting user input, and Bootstrap ensures they are visually consistent across devices.
+            </div>
+        </section>
+        <section>
+            <h2><strong>4. Alerts</strong></h2>
+            <div class="example-box">
+                <h3><strong>Overview</strong></h3></br>
+                Alerts in Bootstrap provide contextual feedback messages for user interactions. They are available in various types, including success, warning, danger, and info.
+                <ul>
+                    <li><strong>Bootstrap 3:</strong> Uses classes like <code>.alert-success</code>, <code>.alert-danger</code>, etc.</li>
+                    <li><strong>Bootstrap 5:</strong> Enhances alert usability with <code>.alert-dismissible</code> for adding close buttons easily.</li>
+                </ul>
+                Alerts are essential for notifying users about important actions or status updates in an application.
+            </div>
+        </section>
+        <section>
+            <h2><strong>5. Cards</strong></h2>
+            <div class="example-box">
+                <h3><strong>Overview</strong></h3></br>
+                Cards are flexible content containers that replace panels, thumbnails, and wells from earlier versions of Bootstrap. They support different content types like images, text, and links.
+                <ul>
+                    <li><strong>Bootstrap 3:</strong> Relied on <code>.panel</code> components for content grouping.</li>
+                    <li><strong>Bootstrap 5:</strong> Uses <code>.card</code> components for a more modern and flexible approach.</li>
+                </ul>
+                Cards allow for clean and consistent UI design, making them popular in dashboards and content-driven applications.
+            </div>
+        </section>
+        <section>
+            <h2><strong>6. Modals</strong></h2>
+            <div class="example-box">
+                <h3><strong>Overview</strong></h3></br>
+                Modals are overlay windows used for displaying additional information without navigating away from the current page. They can be used for dialogs, forms, confirmations, and more.
+                <ul>
+                    <li><strong>Bootstrap 3:</strong> Used <code>modal-dialog</code> without flexbox alignment options.</li>
+                    <li><strong>Bootstrap 5:</strong> Introduces <code>modal-dialog-centered</code> for easier vertical alignment.</li>
+                </ul>
+                Modals enhance user interaction by providing a way to display information dynamically without cluttering the main interface.
+            </div>
+        </section></br></br></br>
+    </div>
+    <div class="footer">&copy; 2025 Bootstrap</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
