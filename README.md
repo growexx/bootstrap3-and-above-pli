@@ -21,11 +21,17 @@ This project is a fully responsive **Admin Panel** built using **Bootstrap** (ve
 
 ## 🎨 Features
 ✅ **Modern Sidebar & Navigation** with hover effects and smooth transitions
+
 ✅ **Custom Scrollbar** styled to match the sidebar design
+
 ✅ **Grid System Examples** comparing Bootstrap 3 vs. 5
+
 ✅ **Reusable UI Components** like buttons, dropdowns, and navigation bars
+
 ✅ **Advanced Forms** with different input fields and validation
+
 ✅ **Styled Alerts & Cards** with multiple variants
+
 ✅ **Fully Functional Modals** with animation effects (top, bottom, fade, etc.)
 
 ## 🚀 How to Use
